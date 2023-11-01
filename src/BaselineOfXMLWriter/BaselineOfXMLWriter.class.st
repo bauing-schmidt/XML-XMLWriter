@@ -50,7 +50,7 @@ BaselineOfXMLWriter >> orderPreservingDictionaryOn: spec [
       with: [ 
 			spec
 				loads: #('Core');
-				repository: 'github://pharo-contributions/OrderPreservingDictionary:v1.6.x/src' ]. 
+				repository: 'github://bauing-schmidt/OrderPreservingDictionary:production12/src' ].
 				
 	spec 
 		project: 'OrderPreservingDictionary Tests' copyFrom: 'OrderPreservingDictionary' with: [ spec loads: #('Tests') ];			
